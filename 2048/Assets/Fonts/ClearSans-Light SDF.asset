@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: ClearSans-Light SDF
   m_EditorClassIdentifier: 
   hashCode: 0
-  material: {fileID: 739412474104081933}
+  material: {fileID: 3090811135979029105}
   materialHashCode: 0
   m_Version: 1.1.0
-  m_SourceFontFileGUID: 44d35aaecf7961e4abf338535c07d4ef
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 44d35aaecf7961e4abf338535c07d4ef, type: 3}
-  m_SourceFontFile: {fileID: 12800000, guid: 44d35aaecf7961e4abf338535c07d4ef, type: 3}
+  m_SourceFontFileGUID: e3fdcc1a257e29948b75699bc72c43a7
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: e3fdcc1a257e29948b75699bc72c43a7, type: 3}
+  m_SourceFontFile: {fileID: 12800000, guid: e3fdcc1a257e29948b75699bc72c43a7, type: 3}
   m_AtlasPopulationMode: 1
   m_FaceInfo:
     m_FaceIndex: 0
@@ -26,7 +26,6 @@ MonoBehaviour:
     m_StyleName: Regular
     m_PointSize: 90
     m_Scale: 1
-    m_UnitsPerEM: 2048
     m_LineHeight: 121.68457
     m_AscentLine: 96.94336
     m_CapLine: 61
@@ -45,7 +44,7 @@ MonoBehaviour:
   m_GlyphTable: []
   m_CharacterTable: []
   m_AtlasTextures:
-  - {fileID: 5644429284812862309}
+  - {fileID: 7598655602042655372}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_ClearDynamicDataOnBuild: 0
@@ -91,7 +90,7 @@ MonoBehaviour:
   m_FallbackFontAssetTable: []
   m_CreationSettings:
     sourceFontFileName: 
-    sourceFontFileGUID: 44d35aaecf7961e4abf338535c07d4ef
+    sourceFontFileGUID: e3fdcc1a257e29948b75699bc72c43a7
     pointSizeSamplingMode: 0
     pointSize: 90
     padding: 9
@@ -134,7 +133,7 @@ MonoBehaviour:
   boldSpacing: 7
   italicStyle: 35
   tabSize: 10
---- !u!21 &739412474104081933
+--- !u!21 &3090811135979029105
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -143,8 +142,6 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: ClearSans-Light Atlas Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -153,7 +150,6 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -170,7 +166,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 5644429284812862309}
+        m_Texture: {fileID: 7598655602042655372}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -242,7 +238,7 @@ Material:
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_BuildTextureStacks: []
---- !u!28 &5644429284812862309
+--- !u!28 &7598655602042655372
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,8 +260,7 @@ Texture2D:
   m_MipCount: 1
   m_IsReadable: 1
   m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
+  m_IgnoreMasterTextureLimit: 0
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_VTOnly: 0
@@ -281,7 +276,7 @@ Texture2D:
     m_WrapV: 0
     m_WrapW: 0
   m_LightmapFormat: 0
-  m_ColorSpace: 1
+  m_ColorSpace: 0
   m_PlatformBlob: 
   image data: 0
   _typelessdata: 

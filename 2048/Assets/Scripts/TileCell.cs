@@ -1,14 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TileCell : MonoBehaviour
 {
-    public  Vector2Int coordinates {  get; set; }
+    public Vector2Int coordinates { get; set; }
     public Tile tile { get; set; }
 
-    public bool empty => tile == null;
-    public bool ocupied => tile != null;
-
-
+    public bool Empty => tile == null;
+    public bool Occupied => tile != null;
 }
